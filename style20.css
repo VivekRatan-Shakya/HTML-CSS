@@ -1,0 +1,204 @@
+*
+{
+    margin: 0px;
+    padding: 0px;
+}
+
+body
+{
+background-image:url(489350.jpg);
+background-blend-mode:difference;
+background-repeat: no-repeat;
+background-position:center;
+background-size:cover;
+height:99vh;
+width:99%;
+background-attachment:fixed;
+}
+
+.src
+{
+    background-image:url(web-design.jpg);
+    background-size: cover;
+    padding: 20px;
+    margin: 100px 0px 0px 12px;
+    border-radius: 20px;
+
+}
+
+
+
+.slection 
+{
+
+    color: white;
+}
+
+
+.banner
+{
+    margin: 10px 0px 50px 0px;
+}
+
+.banner img
+{
+    background-color: skyblue;
+    padding: 10px;
+    border-radius: 45px;
+
+}
+
+
+
+
+
+nav
+{
+display:flex;
+height:55px;
+width:100%;
+background: black;
+align-items:center;
+justify-content:space-between;
+padding: 0px 12px 0px 0px;
+
+}
+
+nav,logo
+{
+color:white;
+font-size:40px;
+font-weight:600;
+
+}
+
+nav ul
+{
+display:flex;
+flex-wrap:wrap;
+list-style-type:none;
+}
+
+nav ul li a
+{
+color:white;
+text-decoration:none;
+font-size: 18px;
+font-weight: 500;
+padding:8px 15px;
+border-radius: 5px;
+letter-spacing: 1px;
+border-bottom:1.5px solid transparent;
+transition:all 0.3s ease;
+
+}
+
+nav ul li a.active,
+nav ul li a:hover
+{
+border-color:blue;
+color:blue;
+}
+
+nav img
+{
+    padding: 60px 0px 0px 0px;
+    height: 100px;
+    width: 150px;
+    border-radius: 60%;
+    background-color: orangered;
+    
+}
+
+div h2
+{
+text-align:center;
+color:lawngreen;
+font-size: 40px;    
+}
+
+div h3
+{
+    color: blue;
+    font-size: 35px;
+}
+
+ 
+
+
+footer     
+{
+    background-color: black;
+    padding: 10px;
+    margin: 300px 0px 0px 12px;
+    border-radius: 20px;
+    color: white;
+}
+
+.row
+{
+    padding: 10px;
+    margin: 20px;
+
+}
+
+.column
+{
+    width: 25%;
+    float: left;
+   padding-bottom: 30px;
+   text-align: left;
+   line-height: 25px;
+}
+
+
+
+/* social media property */
+
+ .social-icons ul
+{
+   top: 10%;
+   left: 10%;
+   padding: 10px;
+   margin: 10px;
+   display: flex;
+  
+}
+
+.social-icons ul li
+{
+
+    list-style: none;
+    margin: 0 15px;
+}
+
+.social-icons ul li .fab 
+{
+
+    font-size: 30px;
+    line-height: 20px;
+    transition: .6s;
+    color: green;
+}
+
+.social-icons ul li a 
+{
+    position: relative;
+    display: black;
+    width: 60px;
+    height: 60px;
+    border-radius: 50px;
+    background-color: white;
+    text-align: center;
+    float: right;
+    transition: .5s;
+    box-shadow: 0 px 4px rgba(0,0,0,.5);
+}
+
+.social-icons ul li a:hover
+{
+    transform: translate(0,-10px);
+}
+
+
+
